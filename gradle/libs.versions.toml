@@ -13,7 +13,6 @@ validation-api = "2.0.1.Final"
 # We choose Jackson with the latest patch release of the latest open branch.
 jackson = "2.16.2"
 
-embulk-util-file = "0.1.5"
 embulk-util-timestamp = "0.2.2"
 
 checkstyle = "9.3"
@@ -23,7 +22,6 @@ checkstyle = "9.3"
 embulk-spi = { group = "org.embulk", name = "embulk-spi", version.ref = "embulk-spi" }
 slf4j = { group = "org.slf4j", name = "slf4j-api", version.ref = "slf4j-api" }
 embulk-util-config = { group = "org.embulk", name = "embulk-util-config", version.ref = "embulk-util-config" }
-embulk-util-file = { group = "org.embulk", name = "embulk-util-file", version.ref = "embulk-util-file" }
 embulk-util-timestamp = { group = "org.embulk", name = "embulk-util-timestamp", version.ref = "embulk-util-timestamp" }
 validation = { group = "javax.validation", name = "validation-api", version.ref = "validation-api" }
 jackson-bom = { group = "com.fasterxml.jackson", name = "jackson-bom", version.ref = "jackson" }
